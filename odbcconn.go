@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	//conn, _ := odbc.Connect("ODBC","DSN=impala")
-	conn, _ := sql.Open("ODBC","DSN=impala")
+	conn, _ := odbc.Connect("ODBC","DSN=impala")
+	//conn, _ := sql.Open("ODBC","DSN=impala")
 	}
 	fmt.Println("connected")
 	conn.Close()
