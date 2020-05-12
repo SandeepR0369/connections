@@ -14,8 +14,8 @@ import (
 )
 
 func main() {
-	aws_access_key_id := "AKIAIFSWBHWPOJWY2TAQ"
-	aws_secret_access_key := "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"
+	aws_access_key_id := ""
+	aws_secret_access_key := ""
 	token := ""
 	creds := credentials.NewStaticCredentials(aws_access_key_id, aws_secret_access_key, token)
 	_, err := creds.Get()
